@@ -1,0 +1,60 @@
+.header {
+  background: #73618F;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction:row;
+  align-items: center;
+  }
+/*my name*/
+.header h1 {
+  font-size: 55px;
+  color: #E8FDFF;
+  margin-right: auto;
+  font-family: 'Squada One';
+  padding-left: 15%;
+}
+/*UMD logo*/
+.header img { 
+  width: 60%;
+  height: 200px;
+  padding-left: 30%; 
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  display: flex;
+  max-width: 960px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #FFE4AD;
+  padding: 15px;
+}
+/*my photo*/
+.image img { 
+  width: 70%;
+  height: 300px;
+  border: 1px solid #FA9F7F;
+  border-radius: 4px;
+  margin-left: 65px;
+}
+/*caption*/
+.image p {
+  background-color: #FFF8E6; 
+  padding: 30px;
+  margin: 15px;
+  text-align: center;
+}
+.workexperience {
+  background-color: #FFF8E6;
+}
+.workexperience h2 {
+  font-family: 'Bowlby One SC';
+  padding-left: 3%;
+}
+.workexperience h3 {
+  font-style: italic;
+}
+
