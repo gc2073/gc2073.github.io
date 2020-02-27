@@ -1,44 +1,77 @@
+@media screen and (min-device-width: 320px)
+              and (max-device-width:1600px)
+{
+
+
 .header {
   background: #73618F;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: row wrap;
   flex-direction:row;
-  align-items: center;
+  /*width: auto;
+  height: auto;*/
+  justify-content: space-between;
+
+  margin: 0px 0px 10px 0px;
+
+  /*position: relative;*/
+
+  /*text-align: justify;
+  vertical-align: center;
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;*/
+
   }
 /*my name*/
 .header h1 {
   font-size: 55px;
   color: #E8FDFF;
-  margin-right: auto;
-  font-family: 'Squada One';
+  margin: left;
+  font-family: 'Squada One';    
   padding-left: 15%;
+  
 }
 /*UMD logo*/
 .header img { 
-  width: 60%;
-  height: 200px;
-  padding-left: 30%; 
+  width: 100%;
+  height: auto;
+  margin: right;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*padding: 20px;*/
+  flex-wrap: row wrap;
+  width: 100%;
+  height: auto;
+  background-color: #FFE4AD;
+  /*vertical-align: middle;
+  position: fixed;
+  margin: auto;
+  flex: auto;
+  position: relative;*/
+  
 }
 .content {
   display: flex;
   max-width: 960px;
-  flex-direction: row;
+  /*flex-direction: row;
   flex-wrap: nowrap;
   background-color: #FFE4AD;
-  padding: 15px;
+  padding: 15px; */
+  margin: auto;
 }
+
 /*my photo*/
 .image img { 
-  width: 70%;
-  height: 300px;
   border: 1px solid #FA9F7F;
   border-radius: 4px;
   margin-left: 65px;
+  width: 100%;
+  height: auto;
+ 
 }
 /*caption*/
 .image p {
@@ -49,6 +82,7 @@
 }
 .workexperience {
   background-color: #FFF8E6;
+
 }
 .workexperience h2 {
   font-family: 'Bowlby One SC';
@@ -56,5 +90,6 @@
 }
 .workexperience h3 {
   font-style: italic;
+}
 }
 
