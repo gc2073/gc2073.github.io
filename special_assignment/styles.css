@@ -1,95 +1,114 @@
-@media screen and (min-device-width: 320px)
-              and (max-device-width:1600px)
-{
-
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width:1600px){
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .header img {
+        max-width: 25% !important; 
+        height: auto;
+      }
+      .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+      }
+      .contentphoto{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 35%;
+      }
+      .contentphoto img {
+        max-width: 20%;
+        height: auto;
+        margin-bottom: 5%;      
+      }
+      .workexperience {
+        width:100%;       
+      }
+}
 
 .header {
   background: #73618F;
-  display: flex;
-  flex-wrap: row wrap;
-  flex-direction:row;
-  /*width: auto;
-  height: auto;*/
-  justify-content: space-between;
-
-  margin: 0px 0px 10px 0px;
-
-  /*position: relative;*/
-
-  /*text-align: justify;
-  vertical-align: center;
-  height: auto;
-  justify-content: inherit;
-  align-items: inherit;*/
-
-  }
-/*my name*/
-.header h1 {
-  font-size: 55px;
+  font-family: 'Squada One'; 
   color: #E8FDFF;
-  margin: left;
-  font-family: 'Squada One';    
-  padding-left: 15%;
-  
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+  padding: 1%;
+  align-items: center;
+  max-width: 100%;
 }
 /*UMD logo*/
 .header img { 
-  width: 100%;
+  min-width: 2%;
+  max-width: 100%;
   height: auto;
-  margin: right;
+  margin: right; 
 }
-
 .wrapper {
   display: flex;
-  flex-direction: column;
-  /*padding: 20px;*/
-  flex-wrap: row wrap;
-  width: 100%;
-  height: auto;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap:wrap;
+
+}
+.body {
   background-color: #FFE4AD;
-  /*vertical-align: middle;
-  position: fixed;
-  margin: auto;
-  flex: auto;
-  position: relative;*/
-  
+  margin: -18px;
 }
 .content {
   display: flex;
   max-width: 960px;
-  /*flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: #FFE4AD;
-  padding: 15px; */
-  margin: auto;
+  align-items: flex-start;
+  flex-direction: row wrap;
+
+}
+/*photo and caption container*/
+.contentphoto {
+  display: flex;
+  flex-direction: wrap;
+  order: 1;
+  flex: 0 1 auto;
+  max-width: 20%;
+  margin: 5px;
 }
 
-/*my photo*/
-.image img { 
+/*Yeeun's photo element*/
+.contentphoto img { 
   border: 1px solid #FA9F7F;
   border-radius: 4px;
-  margin-left: 65px;
-  width: 100%;
-  height: auto;
- 
+  max-width: 100%;
 }
-/*caption*/
-.image p {
+/*Caption element*/
+.contentphoto p {
   background-color: #FFF8E6; 
-  padding: 30px;
-  margin: 15px;
-  text-align: center;
+  padding: 10px;
 }
+/*Roles container*/
 .workexperience {
+  display: flex;
   background-color: #FFF8E6;
-
+  order: 2;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-self: flex-start;  /* left */
+  margin-left: auto;       /* right */
+  max-width: 65%;
+  margin: 5px;
+  padding: 5px;
 }
+
 .workexperience h2 {
   font-family: 'Bowlby One SC';
-  padding-left: 3%;
 }
 .workexperience h3 {
   font-style: italic;
 }
-}
-
