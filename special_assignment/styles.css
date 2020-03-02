@@ -1,5 +1,4 @@
 @media only screen 
-@media only screen 
   and (max-width:900px){
       .content{
         display: flex;
@@ -118,7 +117,6 @@
 .workexperience h3 {
   font-style: italic;
 }
-
 
 
 
