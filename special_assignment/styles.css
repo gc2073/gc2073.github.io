@@ -1,5 +1,5 @@
 @media only screen 
-  and (max-width:999px){
+  and (max-width:950px){
       .content{
         display: flex;
         justify-content: center;
