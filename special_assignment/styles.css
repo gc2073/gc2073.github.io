@@ -1,5 +1,5 @@
 @media only screen 
-  and (max-width:950px){
+  and (max-width:900px){
       .content{
         display: flex;
         justify-content: center;
@@ -13,14 +13,12 @@
         justify-content: space-around;
         align-items: center;
         min-width: 80%;
-
       }
       .contentphoto img {
         max-width: 40% !important;
         height: auto;
         /*margin-bottom: 3%;*/
-        margin: 0 auto;   
-  
+        margin: 0 auto;  
       }
       .workexperience {
         width: 100%; 
@@ -51,26 +49,17 @@
   display: flex;
   align-content: center;
   justify-content: center;
-
-
-
-
 }
 .body {
   background-color: #FFE4AD;
   margin: -18px;
   padding: -19px;
-
-
-
-
 }
 .content {
   display: flex;
   max-width: 960px;
   align-items: flex-start;
   flex-direction: row wrap;
-
 }
 /*photo and caption container*/
 .contentphoto {
@@ -78,17 +67,13 @@
   flex: 0 1 auto;
   max-width: 40%;
   margin: 15px;
-
 }
-
 /*Yeeun's photo element*/
 .contentphoto img { 
   border: 1px solid #FA9F7F;
   border-radius: 4px;
   max-width: 100%;
   height: auto;
-  
-
 }
 /*Caption element*/
 .contentphoto p {
@@ -97,7 +82,6 @@
 }
 /*Roles container*/
 .workexperience {
-  display: flex;
   background-color: #FFF8E6;
   order: 2;
   flex-grow: 1;
@@ -108,15 +92,11 @@
   max-width: 80%;
   margin: 10px;
   padding: 5px;
-
 }
-
 .workexperience h2 {
   font-family: 'Bowlby One SC';
 }
 .workexperience h3 {
   font-style: italic;
 }
-
-
 
