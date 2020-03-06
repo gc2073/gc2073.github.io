@@ -1,101 +1,100 @@
-@media only screen 
-  and (max-width:900px){
-      .content{
+@media only screen and (max-width: 900px) {
+    .content{
         display: flex;
         justify-content: center;
         flex-flow: column nowrap;
         align-items: center;
-        
-      }
-      .contentphoto{
+    }
+    
+    .contentphoto {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
         align-items: center;
         min-width: 80%;
-      }
-      .contentphoto img {
+    }
+
+    .contentphoto img {
         max-width: 40%;
-        heiht: auto;
-        margin: 0 auto;  
-      }
-      .workexperience {
-        width: 100%; 
+        height: auto;
         margin: 0 auto;
-         
-      }
+    }
+
+    .workexperience {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 .header {
-  background: #73618F;
-  font-family: 'Squada One'; 
-  color: #E8FDFF;
-  font-size: 30px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 0px 5px 0px;
-  padding: 3%;
-  align-items: center;
-  max-width: 100%;
-}
-/*UMD logo*/
-.header img { 
-  min-width: 10%;
-  max-width: 100%;
-  height: auto;
-}
-.wrapper {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-.body {
-  background-color: #FFE4AD;
-  margin: -18px;
-  padding: -19px;
-}
-.content {
-  display: flex;
-  max-width: 960px;
-  align-items: flex-start;
-  flex-direction: row wrap;
-}
-/*photo and caption container*/
-.contentphoto {
-  order: 1;
-  flex: 0 1 auto;
-  max-width: 40%;
-  margin: 15px;
-}
-/*Yeeun's photo element*/
-.contentphoto img { 
-  border: 1px solid #FA9F7F;
-  border-radius: 4px;
-  max-width: 100%;
-  height: auto;
-}
-/*Caption element*/
-.contentphoto p {
-  background-color: #FFF8E6; 
-  padding: 5px;
-}
-/*Roles container*/
-.workexperience {
-  background-color: #FFF8E6;
-  order: 2;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto;
-  align-self: flex-start;  /* left */
-  margin-left: auto;       /* right */
-  max-width: 80%;
-  margin: 10px;
-  padding: 5px;
-}
-.workexperience h2 {
-  font-family: 'Bowlby One SC';
-}
-.workexperience h3 {
-  font-style: italic;
+    background: #73618F;
+    font-family: 'Squada One'; 
+    font-size: 20px;
+    color: #E8FDFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 25px 0px;
+    padding: 3%;
+    align-items: center;
+    max-width: 100%;
 }
 
+.header img{
+    max-width: 100%;
+    min-width: 15%;
+    height: auto;
+}
+.wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.body {
+    background-color: #FFE4AD;
+    margin: -10px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    max-width: 960%;
+}
+.contenphoto {
+    order: 1;
+    flex: 0 1 auto;
+    max-width: 40%;
+  
+}
+
+.contentphoto img{
+    border: 1px solid #FA9F7F;
+    border-radius: 4px;
+    max-width: 100%;
+}
+.contentphoto p {
+    background-color: #FFF1D6;
+    padding: 10px;
+    align-content: center;
+
+}
+.workexperience {
+    background-color: #FFF8E6;
+    order: 2;
+    max-width: 80%;
+    margin: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: flex-start; 
+}
+
+.workexperience h2{
+    font-family: "Bowlby One SC";
+}
+
+.workexperience h3 {
+    font-style: italic;
+}
